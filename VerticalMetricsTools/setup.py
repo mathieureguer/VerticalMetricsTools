@@ -32,7 +32,7 @@ setup(name="VerticalMetricsTools",
       install_requires=[
           "fonttools",
           "click",
-          # "drawBot",
+          "drawbot @ git+https://github.com/typemytype/drawbot",
           "pyaml"
       ],
       include_package_data=True,
